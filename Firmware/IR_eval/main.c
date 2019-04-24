@@ -1,6 +1,6 @@
 /*
     12-6-10
-    Copyright Spark Fun Electronics© 2010
+    Copyright Spark Fun ElectronicsÂ© 2010
     Aaron Weiss
     aaron at sparkfun.com
 	
@@ -88,7 +88,6 @@ void MLX(void)
 	i2cWaitForComplete();
 	i2cSendByte(0x07);    //RAM address 0x07, object temperature 1
 	i2cWaitForComplete();
-	i2cSendStop();
 	
 	i2cSendStart();
 	i2cWaitForComplete();
